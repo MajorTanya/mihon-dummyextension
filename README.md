@@ -17,6 +17,12 @@ daily.
 
 # Usage
 
+Repository index.min.json:
+
+```text
+https://raw.githubusercontent.com/MajorTanya/mihon-dummyextension/repo/index.min.json
+```
+
 1. Add the repository link from above to your Mihon or Tachiyomi/Mihon-based fork as a third-party
    repository.
 
