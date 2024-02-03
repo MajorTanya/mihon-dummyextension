@@ -5,6 +5,8 @@ extlib = "1.4.2"
 okhttp = "5.0.0-alpha.12"
 
 [libraries]
+gradle-agp = { module = "com.android.tools.build:gradle", version.ref = "agp" }
+gradle-kotlin = { module = "org.jetbrains.kotlin:kotlin-gradle-plugin", version.ref = "kotlin" }
 tachiyomi-lib = { module = "com.github.tachiyomiorg:extensions-lib", version.ref = "extlib" }
 okhttp = { module = "com.squareup.okhttp3:okhttp", version.ref = "okhttp" }
 
