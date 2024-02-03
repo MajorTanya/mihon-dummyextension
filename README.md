@@ -5,6 +5,6 @@ This branch holds the APK file for the Dummy Extension as well as the `index.jso
 
 ## Add this repo
 
-You can
-[add this repo](tachiyomi://add-repo?url=https://raw.githubusercontent.com/MajorTanya/mihon-dummyextension/repo/index.min.json)
-to your Tachiyomi, Mihon, or fork thereof.
+You can add this repo to your Tachiyomi, Mihon, or fork thereof with the following URL:
+
+```https://raw.githubusercontent.com/MajorTanya/mihon-dummyextension/repo/index.min.json```
