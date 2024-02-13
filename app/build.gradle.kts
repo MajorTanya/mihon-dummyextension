@@ -13,7 +13,7 @@ android {
         applicationIdSuffix = "all.dummyextension"
         minSdk = 26
         targetSdk = 34
-        versionCode = 1
+        versionCode = 2
         versionName = "1.4.$versionCode"
         base {
             archivesName = "tachiyomi-$applicationIdSuffix-v$versionName"
@@ -33,7 +33,8 @@ android {
         release {
             isMinifyEnabled = false
             proguardFiles(
-                getDefaultProguardFile("proguard-android-optimize.txt"), "proguard-rules.pro"
+                getDefaultProguardFile("proguard-android-optimize.txt"),
+                "proguard-rules.pro",
             )
             signingConfig = signingConfigs.getByName("release")
         }
