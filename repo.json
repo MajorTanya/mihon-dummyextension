@@ -1,7 +1,7 @@
 {
   "meta": {
     "name": "Dummy Extension Repo",
-    "displayName": "Dummy Repo",
+    "shortName": "Dummy Repo",
     "website": "https://github.com/MajorTanya/mihon-dummyextension",
     "signingKeyFingerprint": "debefdf6a48f69a10ed908b5185b111926cf9487f3e17149ca9a2baf10153106"
   }
