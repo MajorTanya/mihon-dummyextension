@@ -109,3 +109,6 @@ with (REPO_DIR / "index.json").open("w", encoding="utf-8") as f:
 
 with (REPO_DIR / "index.min.json").open("w", encoding="utf-8") as f:
     json.dump(index_min_data, f, ensure_ascii=False, separators=(",", ":"))
+
+with (REPO_DIR / "index.min.json").open("r", encoding="utf-8") as f:
+    print(f.read())
