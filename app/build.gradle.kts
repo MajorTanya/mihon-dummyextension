@@ -12,8 +12,8 @@ android {
         applicationIdSuffix = "all.dummyextension"
         minSdk = 26
         targetSdk = 34
-        versionCode = 16
-        versionName = "1.4.$versionCode"
+        versionCode = 17
+        versionName = "${libs.versions.extlib.get().substringBeforeLast('.')}.$versionCode"
         base {
             archivesName = "tachiyomi-$applicationIdSuffix-v$versionName"
         }
