@@ -11,9 +11,8 @@ Again, **THIS EXTENSION DOES NOT SERVE ANY CONTENT WHATSOEVER.**
 
 # Updates
 
-Currently, the DummyExtension is manually updated about _once per week_. In the future, the plan is
-to automate the release of new versions and increase the frequency to a few times per week, possibly
-daily.
+No regular update cycle is planned at this time. Basically, if I need a new version to test/debug
+something, there will be a new one. Otherwise, probably not.
 
 # Usage
 
