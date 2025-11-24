@@ -19,6 +19,11 @@ something, there will be a new one. Otherwise, probably not.
 
 # Usage
 
+<details>
+   <summary>
+      Beware! This repo DOES NOT SERVE ANY CONTENT! If you are not a developer, this is NOT FOR YOU!
+   </summary>
+
 Repository index.min.json:
 
 ```text
@@ -29,6 +34,8 @@ https://raw.githubusercontent.com/MajorTanya/mihon-dummyextension/repo/index.min
    repository.
 
 2. Install/update the "Dummy Extension" from the list as required for your debugging.
+
+</details>
 
 ## License
 
