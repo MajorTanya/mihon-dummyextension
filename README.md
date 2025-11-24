@@ -1,3 +1,6 @@
+> [!CAUTION]
+> # IF YOU ARE NOT DEVELOPING OR DEBUGGING MIHON, A MIHON FORK, OR AN EXTENSION FOR THEM, THIS REPO IS NOT MEANT FOR YOU! THERE IS NO CONTENT HERE!
+
 # Dummy Extension repository for debugging extension management in Tachiyomi, Mihon, and their forks
 
 This repo contains a singular extension called "Dummy Extension", which does not serve any sort of
