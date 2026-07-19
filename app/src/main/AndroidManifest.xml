@@ -16,6 +16,12 @@
         <meta-data
             android:name="tachiyomi.extension.nsfw"
             android:value="false" />
+        <meta-data
+            android:name="tachiyomix.contentWarning"
+            android:value="1" />
+        <meta-data
+            android:name="tachiyomix.extensionLib"
+            android:value="1.6" />
 
     </application>
 
