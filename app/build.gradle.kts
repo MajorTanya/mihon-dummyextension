@@ -65,4 +65,5 @@ android {
 dependencies {
     compileOnly(libs.tachiyomi.lib)
     compileOnly(libs.okhttp)
+    compileOnly(libs.coroutines)
 }
