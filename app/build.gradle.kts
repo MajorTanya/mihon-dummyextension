@@ -1,17 +1,24 @@
+import org.jetbrains.kotlin.gradle.dsl.JvmTarget
+
 plugins {
     alias(libs.plugins.androidApplication)
-    alias(libs.plugins.kotlinAndroid)
+}
+
+kotlin {
+    compilerOptions {
+        jvmTarget = JvmTarget.JVM_1_8
+    }
 }
 
 android {
     namespace = "eu.kanade.tachiyomi.extension"
-    compileSdk = 34
+    compileSdk = 37
 
     defaultConfig {
         applicationId = "eu.kanade.tachiyomi.extension"
         applicationIdSuffix = "all.dummyextension"
         minSdk = 26
-        targetSdk = 34
+        targetSdk = 37
         versionCode = 21
         versionName = "${libs.versions.extlib.get().substringBeforeLast('.')}.$versionCode"
         base {
@@ -52,10 +59,6 @@ android {
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_1_8
         targetCompatibility = JavaVersion.VERSION_1_8
-    }
-
-    kotlinOptions {
-        jvmTarget = JavaVersion.VERSION_1_8.toString()
     }
 }
 
