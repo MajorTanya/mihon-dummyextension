@@ -1,22 +1,32 @@
-[
-  {
-    "name": "DummyExtension",
-    "pkg": "eu.kanade.tachiyomi.extension.all.dummyextension",
-    "apk": "tachiyomi-all.dummyextension-v1.4.20.apk",
-    "lang": "all",
-    "code": 20,
-    "version": "1.4.20",
-    "nsfw": 0,
-    "hasReadme": 0,
-    "hasChangelog": 0,
-    "sources": [
+{
+  "name": "Dummy Extension Repo",
+  "badgeLabel": "DUMMY",
+  "signingKey": "debefdf6a48f69a10ed908b5185b111926cf9487f3e17149ca9a2baf10153106",
+  "contact": {
+    "website": "https://github.com/MajorTanya/mihon-dummyextension"
+  },
+  "extensionList": {
+    "extensions": [
       {
-        "name": "Dummy Extension",
-        "lang": "all",
-        "id": "7326071459150356677",
-        "baseUrl": "https://example.com",
-        "versionId": 1
+        "name": "DummyExtension",
+        "packageName": "eu.kanade.tachiyomi.extension.all.dummyextension",
+        "resources": {
+          "apkUrl": "https://cdn.jsdelivr.net/gh/MajorTanya/mihon-dummyextension@repo/apk/tachiyomi-all.dummyextension-v1.6.21.apk",
+          "iconUrl": "https://cdn.jsdelivr.net/gh/MajorTanya/mihon-dummyextension@repo/icon/eu.kanade.tachiyomi.extension.all.dummyextension.png"
+        },
+        "extensionLib": "1.6",
+        "versionCode": "21",
+        "versionName": "1.6.21",
+        "contentWarning": "CONTENT_WARNING_SAFE",
+        "sources": [
+          {
+            "id": "7326071459150356677",
+            "name": "DummyExtension",
+            "language": "all",
+            "homeUrl": "https://example.com"
+          }
+        ]
       }
     ]
   }
-]
+}
