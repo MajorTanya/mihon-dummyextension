@@ -1,5 +1,5 @@
 {
-  "index_v2": "https://github.com/MajorTanya/mihon-dummyextension/raw/refs/heads/repo/index.pb",
+  "index_v2": "https://raw.githubusercontent.com/MajorTanya/mihon-dummyextension/refs/heads/repo/index.pb",
   "meta": {
     "name": "Dummy Extension Repo",
     "shortName": "Dummy Repo",
