@@ -11,12 +11,12 @@
         "name": "DummyExtension",
         "packageName": "eu.kanade.tachiyomi.extension.all.dummyextension",
         "resources": {
-          "apkUrl": "https://cdn.jsdelivr.net/gh/MajorTanya/mihon-dummyextension@repo/apk/tachiyomi-all.dummyextension-v1.6.26.apk",
+          "apkUrl": "https://cdn.jsdelivr.net/gh/MajorTanya/mihon-dummyextension@repo/apk/tachiyomi-all.dummyextension-v1.6.27.apk",
           "iconUrl": "https://cdn.jsdelivr.net/gh/MajorTanya/mihon-dummyextension@repo/icon/eu.kanade.tachiyomi.extension.all.dummyextension.png"
         },
         "extensionLib": "1.6",
-        "versionCode": "26",
-        "versionName": "1.6.26",
+        "versionCode": "27",
+        "versionName": "1.6.27",
         "contentWarning": "CONTENT_WARNING_SAFE",
         "sources": [
           {
